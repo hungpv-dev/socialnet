@@ -1,0 +1,48 @@
+# Bỏ qua các tệp MySQL
+be.socialnet/.phpunit.cache
+be.socialnet/node_modules
+be.socialnet/public/build
+be.socialnet/public/hot
+be.socialnet/public/storage
+be.socialnet/storage/*.key
+be.socialnet/vendor
+be.socialnet/.env
+be.socialnet/.env.backup
+be.socialnet/.env.production
+be.socialnet/Homestead.json
+be.socialnet/Homestead.yaml
+be.socialnet/auth.json
+be.socialnet/npm-debug.log
+be.socialnet/yarn-error.log
+be.socialnet/.fleet
+be.socialnet/.idea
+be.socialnet/.vscode
+
+be.socialnet/docker/nginx_log/
+be.socialnet/docker/mysql/
+
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+fe.socialnet/node_modules
+fe.socialnet/.pnp
+fe.socialnet/.pnp.js
+
+# testing
+fe.socialnet/coverage
+
+# production
+fe.socialnet/build
+
+# misc
+fe.socialnet/.DS_Store
+fe.socialnet/.env.local
+fe.socialnet/.env.development.local
+fe.socialnet/.env.test.local
+fe.socialnet/.env.production.local
+
+fe.socialnet/npm-debug.log*
+fe.socialnet/yarn-debug.log*
+fe.socialnet/yarn-error.log*
